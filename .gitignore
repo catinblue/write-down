@@ -1,0 +1,27 @@
+# --- build output + dependencies ---
+node_modules
+dist
+dist-ssr
+*.local
+*.log
+*.tsbuildinfo
+
+# --- env / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vercel
+.idea
+.vscode
+
+# --- tooling runtime caches (private) ---
+.claude
+.playwright-mcp
+
+# --- process / effort / design content (private, never sync) ---
+docs
+screenshots
