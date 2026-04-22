@@ -7,7 +7,7 @@ A single-page browser writing app.
     npm install
     npm run dev
 
-Open the URL Vite prints (default `http://127.0.0.1:5173/`).
+Open the URL Vite prints.
 
 ## Build
 
